@@ -53,3 +53,12 @@ x_follow = data.follow_centroid[start:end]
 v_follow = data.follow_velocity[start:end]
 a_follow = data.follow_acceleration[start:end]
 ```
+
+* Read regime information
+
+-the two `.csv` file list the following information:
+
+| case_id | A | C | D | F | Fa | Fd | S |regime_comb |
+|48 | 4.3 |15.7 | 0.2 |19.6 | 6.5 | 0.6 | 1.2 | FaCADFSFd |
+
+- A, C, D, F, Fa, Fd, S are 6 basic car-following regimes decribed in our paper manuscript. The `.csv` gives their durations in second for each car-following case id. The `regime_comb` gives how many regimes contained in each case, which can be used for selecting the desired regimes.
