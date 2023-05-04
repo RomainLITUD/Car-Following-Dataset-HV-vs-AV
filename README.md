@@ -17,3 +17,16 @@
  - regime_trainHH.csv # Regime of each pairs
  - regime_trainHA.csv # Regime of each pairs
 ```
+
+### Requirements
+
+* The dataset is organized in a compact `.zarr` form that allows directly read data from the disk.
+
+* Only the following python packages are required:
+``` bash
+zarr
+numpy
+pandas
+```
+
+### Read car-following data.
