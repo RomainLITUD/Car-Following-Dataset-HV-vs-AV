@@ -1,12 +1,12 @@
 # Large Car-following Dataset Based on Lyft level-5: Following Autonomous Vehicles vs. Human-driven Vehicles
 
-- This is the description of the comparisive car-following dataset for studying driving behaviours when following AVs vs. HVs. The relevant paper is available via this link: [manuscript (click)](https://papers.ssrn.com). This paper describes how the dataset is prepared.
+- This is the description of the comparisive car-following dataset for studying driving behaviours when following AVs vs. HVs. The relevant paper is available via this link: [pre-printed(click)](https://arxiv.org/abs/2305.18921). This paper describes how the dataset is prepared.
 
 ## Quick start
 
 ### Dataset download
 
-* The dataset is available by 4.TU research dataset repository. Click the link to download the dataset: [download page (click)](https://data.4tu.nl/). The download link may not be valid before July. You can also directly send an email to [g.li-5@tudelft.nl](g.li-5@tudelft.nl) to access the dataset.
+* The dataset is available by 4.TU research dataset repository. Click the link to download the dataset: [download page (click)](https://data.4tu.nl/datasets/1255994c-c64f-40f5-8121-9e952e308c9a/1). The download link may not be valid before July. You can also directly send an email to [g.li-5@tudelft.nl](g.li-5@tudelft.nl) to access the dataset.
 
 * The dataset contains the following files:
 ``` bash
