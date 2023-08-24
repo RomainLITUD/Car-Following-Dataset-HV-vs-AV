@@ -13,10 +13,13 @@
 ``` bash
  - trainHH.zarr       # HV following HV pairs from the training set
  - trainHA.zarr       # HV following AV pairs from the training set
+ - trainAH.zarr       # AV following HV pairs from the training set
  - valHH.zarr         # HV following HV pairs from the validation set
  - valHA.zarr         # HV following AV pairs from the validation set
+ - valAH.zarr         # AV following HV pairs from the validation set
  - regime_trainHH.csv # Regime of each pairs
  - regime_trainHA.csv # Regime of each pairs
+ - regime_trainAH.csv # Regime of each pairs
 ```
 
 ### Requirements
