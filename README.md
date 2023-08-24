@@ -57,10 +57,23 @@ a_follow = data.follow_acceleration[start:end]
 
 * Read regime information
 
--the two `.csv` file list the following information:
+-The two `.csv` files list the following information:
 
 | case_id | A | C | D | F | Fa | Fd | S |regime_comb |
 |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |
 |48 | 4.3 |15.7 | 0.2 |19.6 | 6.5 | 0.6 | 1.2 | FaCADFSFd |
 
-- A, C, D, F, Fa, Fd, S are 6 basic car-following regimes decribed in our paper manuscript. The `.csv` gives their durations in second for each car-following case id. The `regime_comb` gives how many regimes contained in each case, which can be used for selecting the desired regimes.
+- A, C, D, F, Fa, Fd, and S are 6 basic car-following regimes described in our paper manuscript. The `.csv` gives their durations in seconds for each car-following case id. The `regime_comb` gives how many regimes are contained in each case, which can be used for selecting the desired regimes.
+
+### Driver unique ids
+In the HV-following-AV subset, different cases may have the same follower (human driver). They are separate because Lyft cut them into pieces. Here we reconstruct the unique human driver ids for every case. They are stored in two `.npz` files:
+
+```
+dr_train = np.load('driver_ids_train_HA.npz', allow_pickle = True)
+dr_val = np.load('driver_ids_val_HA.npz', allow_pickle = True)
+
+ids_train = dr_train['ids']
+ids_val = dr_val['ids]
+```
+
+`ids_train` and `ids_val` are two 1D arrays whose lengths are the numbers of CF cases. The value gives the unique driver ID of the following HV of that case. One driver may appear in several sequential cases.
