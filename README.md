@@ -73,11 +73,11 @@ a_follow = data.follow_acceleration[start:end]
 In the HV-following-AV subset, different cases may have the same follower (human driver). They are separate because Lyft cut them into pieces. Here we reconstruct the unique human driver ids for every case. They are stored in two `.npz` files:
 
 ````python
-dr_train = np.load('driver_ids_train_HA.npz', allow_pickle = True)
-dr_val = np.load('driver_ids_val_HA.npz', allow_pickle = True)
+dr_train = np.load('driver_id_train_HA.npz', allow_pickle = True)
+dr_val = np.load('driver_id_val_HA.npz', allow_pickle = True)
 
 ids_train = dr_train['ids']
-ids_val = dr_val['ids]
+ids_val = dr_val['ids']
 ````
 
 `ids_train` and `ids_val` are two 1D arrays whose lengths are the numbers of CF cases. The value gives the unique driver ID of the following HV of that case. One driver may appear in several sequential cases.
