@@ -69,6 +69,8 @@ a_follow = data.follow_acceleration[start:end]
 
 - A, C, D, F, Fa, Fd, and S are 6 basic car-following regimes described in our paper manuscript. The `.csv` gives their durations in seconds for each car-following case id. The `regime_comb` gives how many regimes are contained in each case, which can be used for selecting the desired regimes.
 
+- Note that the regime combination only gives which regimes are present in a CF event. They do not necessarily appear in the same order.
+
 ### Driver unique ids
 In the HV-following-AV subset, different cases may have the same follower (human driver). They are separate because Lyft cut them into pieces. Here we reconstruct the unique human driver ids for every case. They are stored in two `.npz` files:
 
