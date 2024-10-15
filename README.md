@@ -7,7 +7,8 @@
 ### Dataset download
 
 * The dataset is available by 4.TU research dataset repository. Click the link to download the dataset: [download page (click)](https://data.4tu.nl/datasets/1255994c-c64f-40f5-8121-9e952e308c9a).
-* You can also directly send an email to [g.li-5@tudelft.nl](g.li-5@tudelft.nl) to access the dataset. 
+* You can also directly send an email to [g.li-5@tudelft.nl](g.li-5@tudelft.nl) to access the dataset.
+* The full regimes of each timestamp are available on this GitHub page. It will also be available on the 4.TU platform (in the link) when the preview is finished.
 
 * The dataset contains the following files:
 ``` bash
@@ -20,6 +21,7 @@
  - regime_trainHH.csv # Regime of each pairs
  - regime_trainHA.csv # Regime of each pairs
  - regime_trainAH.csv # Regime of each pairs
+ - full_regimes_per_timestamp.zip # Car-following regimes of each timestamp for study purposes.
 ```
 
 ### Requirements
