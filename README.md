@@ -1,6 +1,6 @@
 # Large Car-following Dataset Based on Lyft level-5: Following Autonomous Vehicles vs. Human-driven Vehicles
 
-- This is the description of the comparisive car-following dataset for studying driving behaviours when following AVs vs. HVs. The relevant paper is available via this link: [pre-printed(click)](https://arxiv.org/abs/2305.18921). This paper describes how the dataset is prepared.
+- This is the description of the comparisive car-following dataset for studying driving behaviours when following AVs vs. HVs. The relevant paper is available via this link: [IEEE ITSC paper (click)](https://ieeexplore.ieee.org/abstract/document/10422574). This paper describes how the dataset is prepared.
 
 ## Quick start
 
