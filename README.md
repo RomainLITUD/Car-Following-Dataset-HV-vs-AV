@@ -8,7 +8,7 @@
 
 * The dataset is available by 4.TU research dataset repository. Click the link to download the dataset: [download page (click)](https://data.4tu.nl/datasets/1255994c-c64f-40f5-8121-9e952e308c9a).
 * You can also directly send an email to [g.li-5@tudelft.nl](g.li-5@tudelft.nl) to access the dataset.
-* The full regimes of each timestamp are available on this GitHub page. It is also available on the 4.TU platform (in the link).
+* The full regimes of each timestamp are available on this GitHub page. It is also available on the 4.TU platform (in the link of the download page).
 
 * The dataset contains the following files:
 ``` bash
